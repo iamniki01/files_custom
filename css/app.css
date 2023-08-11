@@ -1,0 +1,43 @@
+#rightClickContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#rightClickDetector {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100000;
+}
+
+.rightClickMenu {
+    position: fixed;
+    z-index: 100001;
+}
+
+.rightClickMenu.bubble:after {
+    display: none;
+}
+
+.rightClickOpened {
+    height: 100% !important;
+    overflow: hidden !important;
+}
+
+
+/* Define the custom icon class */
+.icon-bash {
+    /* Set the icon's background image from the URL */
+    background-image: url('https://fontawesome.com/icons/terminal?f=classic&s=solid');
+    /* Paste the URL here */
+    /* Set the width and height of the icon */
+    width: 16px;
+    /* Adjust as needed */
+    height: 16px;
+    /* Adjust as needed */
+    /* Additional styling if necessary */
+}
